@@ -2,9 +2,9 @@
 
 [**Install Docker on Ubuntu :**](#install-docker-on-ubuntu-)
 
-[**Docker Compose File **](#install-docker-compose)
+[**Docker Compose File :**](#install-docker-compose)
 
-[**Add following script to docker-compose.yml: **](#add-following-script-to-docker-composeyml)
+[**Add following script to docker-compose.yml :**](#add-following-script-to-docker-composeyml)
 
 [**Start the Docker Containers **](#start-the-docker-containers)
 
