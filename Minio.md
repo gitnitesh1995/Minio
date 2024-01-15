@@ -76,9 +76,9 @@ sudo apt update && sudo apt upgrade -y
 
 **upgrade -y:** This is another action for apt. It's telling apt to upgrade all installed packages to their latest versions (upgrade), and the -y flag means "yes" to any prompts, so it automatically agrees to the upgrades without asking for confirmation.
 
-**Step 2: 
+**Step 2:**
 ```
-sudo apt install docker.io -y**
+sudo apt install docker.io -y
 ```
 **apt:** This is a command used on Debian-based Linux systems (like Ubuntu) to manage software packages—installing, updating, and removing them.
 
