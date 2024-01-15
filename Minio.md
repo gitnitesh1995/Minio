@@ -296,9 +296,9 @@ chmod +x $HOME/minio-binaries/mc
 **$HOME/minio-binaries/mc:** Specifies the path to the MinIO client binary (mc) that you want to make executable. This path includes the user's home directory ($HOME), the directory where the MinIO client was saved (minio-binaries), and the filename (mc).
 
 **Step 3 :**
-
+```
 export PATH=$PATH:$HOME/minio-binaries/
-
+```
 **export PATH=:** This command is used to set or modify the value of the PATH environment variable.
 
 **$PATH::** The existing value of the PATH variable is preserved by using $PATH, and a colon (:) is added to separate it from the new directory.
