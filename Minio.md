@@ -88,9 +88,9 @@ sudo apt install docker.io -y**
 
 **-y:** This is an option that stands for "yes." By including this, you're telling the package manager to answer "yes" to any prompts or confirmations during the installation process. It's a way to automate the installation without needing you to confirm each step.
 
-**Step 3 : 
+**Step 3 :**
 ```
-sudo apt install docker**
+sudo apt install docker
 ```
 **apt:** This is a package management command on Debian and Ubuntu-based systems. It's used to install, upgrade, or remove software packages.
 
@@ -98,9 +98,9 @@ sudo apt install docker**
 
 **docker:** This is the name of the package you want to install. Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers.
 
-**Step 4 : 
+**Step 4 :** 
 ```
-sudo systemctl status docker**
+sudo systemctl status docker
 ```
 **systemctl:** This is a command used to control the systemd system and service manager on Linux. It can be used to query and interact with the state of system services.
 
@@ -108,9 +108,9 @@ sudo systemctl status docker**
 
 **docker:** This is the name of the service you are checking. In this case, it's Docker, which is a platform for automating the deployment of applications inside containers.
 
-**Step 5:
+**Step 5:**
 ```
-docker --version**
+docker --version
 ```
 **docker:** This is the command-line interface (CLI) for interacting with Docker. It provides a set of commands that allow you to manage Docker containers, images, networks, and other Docker-related resources.
 
