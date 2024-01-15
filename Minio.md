@@ -63,7 +63,7 @@ Docker is a platform that allows OS level virtualization which delivers software
 
 **Update & Upgrade Packages Lists :** Please manage the content on the pages it is not clearly understandable.
 ```
-**sudo apt update && sudo apt upgrade -y** 
+sudo apt update && sudo apt upgrade -y
 ```
 **sudo:** This stands for "Superuser Do" and it's used to execute commands with elevated privileges. It allows you to make changes to your system that regular users wouldn't have permission to do.
 
@@ -75,7 +75,8 @@ Docker is a platform that allows OS level virtualization which delivers software
 
 **upgrade -y:** This is another action for apt. It's telling apt to upgrade all installed packages to their latest versions (upgrade), and the -y flag means "yes" to any prompts, so it automatically agrees to the upgrades without asking for confirmation.
 
-**Step 2: sudo apt install docker.io -y**
+**Step 2: 
+sudo apt install docker.io -y**
 
 **apt:** This is a command used on Debian-based Linux systems (like Ubuntu) to manage software packages—installing, updating, and removing them.
 
