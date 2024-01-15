@@ -362,9 +362,9 @@ mc alias set niteshminio <http://127.0.0.1:8080> admin redhat1234
 Maybe it is your personal choice but according to me the alignment of the content is not so good.
 
 **View Docker Container Logs**
-
-**sudo docker logs -f nitesh\_minio\_1**
-
+```
+sudo docker logs -f nitesh\_minio\_1
+```
 **sudo docker logs:** This part of the command is telling Docker to display the logs of a specific container.
 
 **-f:** The -f flag stands for "follow," which means it will continuously show the latest log entries as they are generated.
