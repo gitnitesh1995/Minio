@@ -62,7 +62,7 @@ Docker is a platform that allows OS level virtualization which delivers software
 # Install Docker on Ubuntu :<a id="install-docker-on-ubuntu-"></a>
 
 **Step 1 :
-pdate & Upgrade Packages Lists :** 
+Update & Upgrade Packages Lists :** 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
@@ -87,7 +87,8 @@ sudo apt install docker.io -y**
 
 **-y:** This is an option that stands for "yes." By including this, you're telling the package manager to answer "yes" to any prompts or confirmations during the installation process. It's a way to automate the installation without needing you to confirm each step.
 
-**Step 3 : sudo apt install docker**
+**Step 3 : 
+sudo apt install docker**
 
 **apt:** This is a package management command on Debian and Ubuntu-based systems. It's used to install, upgrade, or remove software packages.
 
@@ -95,7 +96,8 @@ sudo apt install docker.io -y**
 
 **docker:** This is the name of the package you want to install. Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers.
 
-**Step 4 : sudo systemctl status docker**
+**Step 4 : 
+sudo systemctl status docker**
 
 **systemctl:** This is a command used to control the systemd system and service manager on Linux. It can be used to query and interact with the state of system services.
 
@@ -103,7 +105,12 @@ sudo apt install docker.io -y**
 
 **docker:** This is the name of the service you are checking. In this case, it's Docker, which is a platform for automating the deployment of applications inside containers.
 
-**Step 5: docker --version**
+**Step 5:
+docker --version**
+
+**docker:** This is the command-line interface (CLI) for interacting with Docker. It provides a set of commands that allow you to manage Docker containers, images, networks, and other Docker-related resources.
+
+**--version:** This is an option or flag that you pass to the docker command. When used with docker, it instructs Docker to display information about its version.
 
 Reference : <https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04>
 
