@@ -331,9 +331,9 @@ mc alias set niteshminio <http://127.0.0.1:8080> admin redhat1234
 
 
 # Get information about MinIO <a id="get-information-about-minio"></a>
-
-**mc admin info niteshminio**
-
+```
+mc admin info niteshminio
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers.
 
 **admin info:** This part of the command instructs mc to retrieve information about the MinIO server, specifically administrative information.
@@ -342,9 +342,9 @@ mc alias set niteshminio <http://127.0.0.1:8080> admin redhat1234
 
 
 # Execute a Command Inside a Docker Container<a id="execute-a-command-inside-a-docker-container"></a>
-
-**sudo docker exec -it root\_lb\_1 "/sidekick" -a :8989 --health-path=/minio/health/ready** [**http://minio{1...4}:9000**](about:blank)
-
+```
+sudo docker exec -it root\_lb\_1 "/sidekick" -a :8989 --health-path=/minio/health/ready [**http://minio{1...4}:9000**](about:blank)
+```
 **sudo docker exec:** Execute a command inside a running Docker container.
 
 **-it:** Interactive mode, allowing you to interact with the command being executed.
