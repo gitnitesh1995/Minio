@@ -118,11 +118,9 @@ Reference : <https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04>
 # Install Docker Compose<a id="install-docker-compose"></a>
 
 **Step 1:** 
-
-Your commands are not easy to find so please make them highlight or do something that you may think is good.
-
-**sudo curl -SL https\://github.com/docker/compose/releases/download/v2.23.0/docker-compose-linux-x86\_64 -o /usr/local/bin/docker-compose**
-
+```
+sudo curl -SL https\://github.com/docker/compose/releases/download/v2.23.0/docker-compose-linux-x86\_64 -o /usr/local/bin/docker-compose
+```
 **curl:** This is a command-line tool for making HTTP requests. In this context, it is used to download a file.
 
 **-SL:** These are options for curl:
@@ -135,10 +133,11 @@ Your commands are not easy to find so please make them highlight or do something
 
 **-o /usr/local/bin/docker-compose:** This part of the command specifies the output file path where the downloaded file will be saved. In this case, it's /usr/local/bin/docker-compose, indicating that the Docker Compose binary will be stored in the /usr/local/bin/ directory and named docker-compose.
 
-**Step 2:  Test and execute compose commands using docker-compose.**
-
-**sudo chmod +x /usr/local/bin/docker-compose**
-
+**Step 2: 
+Test and execute compose commands using docker-compose.**
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
 **sudo:** This is a command that allows a permitted user to execute a command as the superuser or another user, as specified by the security policy. In this case, it's used to run the subsequent command with elevated privileges.
 
 **chmod +x /usr/local/bin/docker-compose:** This command is changing the permissions of the docker-compose executable file. Let's break it down:
