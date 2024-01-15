@@ -182,71 +182,38 @@ quit Vi. You can combine these commands as :wq to save and exit.
 # Add following script to docker-compose.yml:<a id="add-following-script-to-docker-composeyml"></a>
 
 version: '3'
-
 services:
-
   lb:
-
     image: minio/sidekick:v0.5.1
-
     ports:
-
       - 8080:8080
-
     command:
-
       - --health-path=/minio/health/ready
-
       - http\://minio{1...4}:9000
-
   minio1:
-
     image: minio/minio:RELEASE.2023-08-16T20-17-30Z
-
     environment:
-
       MINIO\_ACCESS\_KEY: admin
-
       MINIO\_SECRET\_KEY: redhat1234
-
     command: server http\://minio{1...4}/data
-
   minio2:
-
     image: minio/minio:RELEASE.2023-08-16T20-17-30Z
-
     environment:
-
       MINIO\_ACCESS\_KEY: admin
-
       MINIO\_SECRET\_KEY: redhat1234
-
     command: server http\://minio{1...4}/data
-
   minio3:
-
     image: minio/minio:RELEASE.2023-08-16T20-17-30Z
-
     environment:
-
       MINIO\_ACCESS\_KEY: admin
-
       MINIO\_SECRET\_KEY: redhat1234
-
     command: server http\://minio{1...4}/data
-
   minio4:
-
     image: minio/minio:RELEASE.2023-08-16T20-17-30Z
-
     environment:
-
       MINIO\_ACCESS\_KEY: admin
-
       MINIO\_SECRET\_KEY: redhat1234
-
     command: server http\://minio{1...4}/data
-
 
 #  Start the Docker Containers <a id="start-the-docker-containers"></a>
 
@@ -314,9 +281,9 @@ mc --help
 **--help:** This is an option or flag that you can add to a command to get help or usage information. When you run mc --help, it displays a summary of available commands, options, and how to use them.
 
 # Set Minio Alias<a id="set-minio-alias"></a>
-
+```
 mc alias set niteshminio <http://127.0.0.1:8080> admin redhat1234
-
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers.
 
 **alias set:** This part of the command is telling mc that you want to set up an alias, which is a shorter, more convenient name for a specific MinIO server.
