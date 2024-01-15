@@ -61,7 +61,8 @@ Docker is a platform that allows OS level virtualization which delivers software
 
 # Install Docker on Ubuntu :<a id="install-docker-on-ubuntu-"></a>
 
-**Update & Upgrade Packages Lists :** Please manage the content on the pages it is not clearly understandable.
+**Step 1 :
+pdate & Upgrade Packages Lists :** 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
