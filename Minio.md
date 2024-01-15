@@ -1,20 +1,20 @@
 ![](https://lh7-us.googleusercontent.com/-UCR3sPgLCW9HONd-hnOWVAOCSNOZQg1X8KviInmthwXjs8kiZL3f_IhUhj7qCJCzQEhbVhthqpem1FAvPLo3ycHML8PFWXOfwD6lXVMBLktY4QNzYnDvpY9t2MZkz_WR0QyEqcmeodcOUeGhV7MqoU)
 
-[**Install Docker on Ubuntu : ****2**](#install-docker-on-ubuntu-)
+[**Install Docker on Ubuntu :**](#install-docker-on-ubuntu-)
 
-[**Docker Compose File ****3**](#install-docker-compose)
+[**Docker Compose File **](#install-docker-compose)
 
-[**Add following script to docker-compose.yml: ****4**](#add-following-script-to-docker-composeyml)
+[**Add following script to docker-compose.yml: **](#add-following-script-to-docker-composeyml)
 
-[**Start the Docker Containers ****6**](#start-the-docker-containers)
+[**Start the Docker Containers **](#start-the-docker-containers)
 
-[**MinIO Client ****7**](#minio-client)
+[**MinIO Client **](#minio-client)
 
-[**Set Minio Alias ****9**](#set-minio-alias)
+[**Set Minio Alias **](#set-minio-alias)
 
-[**Get information about MinIO ****10**](#execute-a-command-inside-a-docker-container)
+[**Get information about MinIO **](#execute-a-command-inside-a-docker-container)
 
-[**Execute a Command Inside a Docker Container ****12**](#create-a-minio-bucket)
+[**Execute a Command Inside a Docker Container **](#create-a-minio-bucket)
 
 [**View Docker Container Logs ****12**](https://docs.google.com/document/d/1wP01j1iayvUnq8MibVrihPYG2K7pqDaaxw_bs5APFaY/edit#heading=h.e4vscxehwmt0)
 
