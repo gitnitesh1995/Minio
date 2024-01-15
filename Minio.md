@@ -152,7 +152,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 **/usr/local/bin/docker-compose:** Specifies the path to the docker-compose executable file. This is the location where the executable is expected to be installed.
 
-**Step 3 : 
+**Step 3 :**
 ```
 docker-compose --version
 ```
@@ -161,9 +161,9 @@ docker-compose --version
 **--version:** This is an option or flag that you pass to the docker-compose command. When used with docker-compose, it instructs the tool to display information about its version. Essentially, it's asking Docker Compose to print its version number.
 
 **Edit the docker-compose.yml File**
-
-**vi docker-compose.yml**
-
+```
+vi docker-compose.yml
+```
 **vi:** This is a text editor in Unix-like operating systems. It's a command-line tool for creating and editing text files.
 
 **docker-compose.yml:** This is the name of the file you want to edit. It's a YAML file, which is often used to configure Docker Compose, a tool for defining and running multi-container Docker applications.
