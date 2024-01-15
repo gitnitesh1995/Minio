@@ -250,10 +250,9 @@ services:
 
 #  Start the Docker Containers <a id="start-the-docker-containers"></a>
 
-Some of your commands are in bold text and some of them are in normal plain text.
-
-**sudo docker-compose up -d** 
-
+```
+sudo docker-compose up -d
+```
 **docker-compose:** This is a tool for defining and running multi-container Docker applications. It allows you to manage and configure multiple Docker containers using a YAML file.
 
 **up:** This is a command used with docker-compose to start and run the containers defined in the docker-compose.yml file.
@@ -273,10 +272,11 @@ It's a bit like having a remote control for your file storage—you can upload, 
 
 **Install MinIO Client**
 
- ****Nitesh please mention 'sudo' before curl
 
-**Step 1 :sudo curl https\://dl.min.io/client/mc/release/linux-amd64/mc --create-dirs -o $HOME/minio-binaries/mc**
-
+**Step 1 :**
+```
+sudo curl https\://dl.min.io/client/mc/release/linux-amd64/mc --create-dirs -o $HOME/minio-binaries/mc
+```
 **curl**: A command-line tool for making HTTP requests and downloading files.
 
 **https\://dl.min.io/client/mc/release/linux-amd64/mc:** The URL from which the MinIO client binary for Linux (64-bit) will be downloaded.
@@ -285,15 +285,19 @@ It's a bit like having a remote control for your file storage—you can upload, 
 
 -**o $HOME/minio-binaries/mc**: Specifies the output file path for the downloaded binary. In this case, it's saving the MinIO client binary as mc in the minio-binaries directory inside the user's home directory ($HOME).
 
-**Step 2 :**chmod +x $HOME/minio-binaries/mc
-
+**Step 2 :**
+```
+chmod +x $HOME/minio-binaries/mc
+```
 **chmod:** Stands for "change mode," a command used in Unix-like operating systems to change the permissions of a file or directory.
 
 **+x:** Adds the execute permission to the file. The +x means "add execute permissio`n."`
 
 **$HOME/minio-binaries/mc:** Specifies the path to the MinIO client binary (mc) that you want to make executable. This path includes the user's home directory ($HOME), the directory where the MinIO client was saved (minio-binaries), and the filename (mc).
 
-**Step 3 : export PATH=$PATH:$HOME/minio-binaries/**
+**Step 3 :**
+
+export PATH=$PATH:$HOME/minio-binaries/
 
 **export PATH=:** This command is used to set or modify the value of the PATH environment variable.
 
@@ -301,14 +305,13 @@ It's a bit like having a remote control for your file storage—you can upload, 
 
 **$HOME/minio-binaries/:** This is the directory path that you want to add to the PATH. It's the location where the MinIO client binary (mc) is stored.
 
-**Step 4 : mc --help**
-
+**Step 4 :**
+```
+mc --help
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers. MinIO is an object storage server that is compatible with the S3 API.
 
 **--help:** This is an option or flag that you can add to a command to get help or usage information. When you run mc --help, it displays a summary of available commands, options, and how to use them.
-
-Output of screenshot are not allowed you are supposed to put the result in text format
-
 
 # Set Minio Alias<a id="set-minio-alias"></a>
 
