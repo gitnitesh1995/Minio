@@ -149,8 +149,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 **/usr/local/bin/docker-compose:** Specifies the path to the docker-compose executable file. This is the location where the executable is expected to be installed.
 
 **Step 3 : 
-
-docker-compose --version**
+```
+docker-compose --version
 ```
 **docker-compose:** This is the main command-line tool for defining and running multi-container Docker applications. It uses a YAML file to configure the application's services, networks, and volumes.
 
