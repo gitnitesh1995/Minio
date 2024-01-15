@@ -62,9 +62,9 @@ Docker is a platform that allows OS level virtualization which delivers software
 # Install Docker on Ubuntu :<a id="install-docker-on-ubuntu-"></a>
 
 **Update & Upgrade Packages Lists :** Please manage the content on the pages it is not clearly understandable.
-
+```
 **sudo apt update && sudo apt upgrade -y** 
-
+```
 **sudo:** This stands for "Superuser Do" and it's used to execute commands with elevated privileges. It allows you to make changes to your system that regular users wouldn't have permission to do.
 
 **apt:** This is the package manager for Debian-based systems. It's used for handling packages—installing, updating, and removing them.
