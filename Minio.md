@@ -377,9 +377,9 @@ Maybe it is your personal choice but according to me the alignment of the conten
 
 
 # Create a MinIO Bucket<a id="create-a-minio-bucket"></a>
-
-**mc mb niteshminio/niteshbucket**
-
+```
+mc mb niteshminio/niteshbucket
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers.
 
 **mb:** Stands for "make bucket." This command is used to create a new bucket on a MinIO server.
@@ -388,9 +388,9 @@ Maybe it is your personal choice but according to me the alignment of the conten
 
 
 # Copy object to minIO bucket.<a id="copy-object-to-minio-bucket"></a>
-
-**mc cp /home/nitesh/Downloads/postgresql-16-A4.pdf niteshminio/niteshbucket**
-
+```
+mc cp /home/nitesh/Downloads/postgresql-16-A4.pdf niteshminio/niteshbucket
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers.
 
 **cp:** Stands for "copy." This command is used to copy files or objects between locations.
@@ -401,9 +401,9 @@ Maybe it is your personal choice but according to me the alignment of the conten
 
 
 # All Objects are shown in the below screenshot<a id="all-objects-are-shown-in-the-below-screenshot"></a>
-
-**mc ls niteshminio/niteshbucket**
-
+```
+mc ls niteshminio/niteshbucket
+```
 **mc:** This is the MinIO client, a command-line tool used for interacting with MinIO servers.
 
 **ls:** Stands for "list." This command is used to display a list of objects/files within a specified bucket or directory.
