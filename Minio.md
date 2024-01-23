@@ -291,7 +291,7 @@ chmod +x $HOME/minio-binaries/mc
 ```
 **chmod:** Stands for "change mode," a command used in Unix-like operating systems to change the permissions of a file or directory.
 
-**+x:** Adds the execute permission to the file. The +x means "add execute permissio`n."`
+**+x:** Adds the execute permission to the file. The +x means "add execute permission.
 
 **$HOME/minio-binaries/mc:** Specifies the path to the MinIO client binary (mc) that you want to make executable. This path includes the user's home directory ($HOME), the directory where the MinIO client was saved (minio-binaries), and the filename (mc).
 
